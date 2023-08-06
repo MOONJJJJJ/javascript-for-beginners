@@ -10,3 +10,7 @@ color : hotpink;
 .sexy-font {
     font-style :oblique;
 }
+
+.hidden{
+    display : none;
+}
