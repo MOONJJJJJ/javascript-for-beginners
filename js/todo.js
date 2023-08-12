@@ -12,6 +12,8 @@ function saveToDos() {
 
 function deleteToDo(event){
     const li = event.target.parentElement;
+    const removeId = li.id;
+    console.log(removeId);
     li.remove();
 }
 
